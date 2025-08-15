@@ -1,0 +1,13 @@
+{
+    "parameters": {
+      "data": [
+        "{{ $json.audio_file_url }}", 
+        "{{ $json.npy_file_url }}",
+        "{{ $json.text }}",
+        "{{ $json.timestep || 3 }}",
+        "{{ $json.intelligibility_weight || 3 }}",
+        "{{ $json.similarity_weight || 3 }}"
+      ],
+      "fn_index": 0
+    }
+}

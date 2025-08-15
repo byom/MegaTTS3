@@ -1,0 +1,7 @@
+conda activate megatts3-env
+python tts/gradio_api.py
+conda env config vars set PYTHONPATH="D:\Artificial_Intelligence\MegaTTS3;%PYTHONPATH%" 
+
+
+** 安装教程 **
+https://github.com/bytedance/MegaTTS3/issues/37
